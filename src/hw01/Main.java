@@ -69,7 +69,7 @@ public class Main {
 							String id=scn.next();
 							for(int i=0;i<Stf.size();i++){
 								if(id.equals(Stf.get(i).getId())){
-									Stu.remove(i);
+									Stf.remove(i);
 									break;
 								}
 							}
@@ -82,7 +82,7 @@ public class Main {
 						for(int i=0;i<Stf.size();i++){
 							Stf.get(i).showInfo();
 						}
-					}else if(select==5){
+					}else if(select1==5){
 						break;
 					}
 				}
@@ -140,7 +140,7 @@ public class Main {
 						for(int i=0;i<Stu.size();i++){
 							Stu.get(i).showAll();
 						}
-					}else if(select==5){
+					}else if(select1==5){
 						break;
 					}
 				}
@@ -201,7 +201,7 @@ public class Main {
 						for(int i=0;i<Tch.size();i++){
 							Tch.get(i).show();
 						}
-					}else if(select==5){
+					}else if(select1==5){
 						break;
 					}
 				}
